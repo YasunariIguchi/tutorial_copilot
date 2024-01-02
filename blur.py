@@ -20,7 +20,7 @@ while True:
     # ぼかし処理
     frame = cv2.blur(frame, (args.radius, args.radius))
 
-    #左右反転
+    # 左右反転
     frame = cv2.flip(frame, 1)
 
     # 画像を表示
